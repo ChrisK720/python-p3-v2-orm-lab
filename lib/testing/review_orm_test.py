@@ -216,6 +216,7 @@ class TestReview:
         id1 = review1.id
         review2 = Review.create(2000, "Takes long lunches", employee.id)
         id2 = review2.id
+        
 
         review1.delete()
         # assert row deleted
